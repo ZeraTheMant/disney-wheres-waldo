@@ -1,0 +1,44 @@
+#name-box {
+    background: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 10px 20px;
+}
+
+label,
+input,
+button {
+    display: block;
+}
+
+button, input {
+    width: 100%;
+}
+
+.name-box-div {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+button {
+    border: 0;
+    background: yellow;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: orange;
+    color: white;
+    transition: 0.5s;
+}
+
+label.text-centered {
+    margin: 10px 0;
+}
+
+span {
+    vertical-align: middle;
+}

@@ -1,0 +1,45 @@
+#leaderboard-box {
+    padding: 10px 0;
+    background: #cecece;
+    height: 100vh;
+    position: relative;
+
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+.leaderboard-time {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+    z-index: 1;
+}
+
+.leaderboard-time p {
+    justify-self: end;
+}
+
+#my-time {
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    border: 1px solid red;
+    z-index: 5;
+    background: red;
+    padding: 0 5px;
+}
+
+#my-time p{
+    align-self: center;
+    margin-right: 10%;
+}
+
+#time-container {
+    height: 75vh;
+    overflow-y: scroll;
+}

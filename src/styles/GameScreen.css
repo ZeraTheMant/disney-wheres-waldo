@@ -1,0 +1,35 @@
+#game-screen {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+#game-screen img {
+    z-index: 1;
+    height: inherit;
+    width: inherit;
+}
+
+#selection-circle,
+#selection-list {
+    position: absolute; 
+    z-index: 5; 
+}
+
+#selection-circle {
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+}
+
+#selection-list img {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+#selection-list {
+    background: white;
+    padding: 5px;
+}
